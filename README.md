@@ -20,6 +20,7 @@ goto 'http://localhost:8080/files/<path>'
 ## Examples
 structure on website
 files/
+
 ├── example.json
 ├── dir2/
 │   └── info.txt
