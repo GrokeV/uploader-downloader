@@ -7,6 +7,8 @@ Host http server with ability to upload/download files.
 Don't forget to install node_modules
 `npm install`
 
+Also you might need to create a directory `files`
+
 # Setting passcode for uploading
 open `.env` file and change `PASSCODE=0000` to whatever you want
 
