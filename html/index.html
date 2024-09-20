@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="./script.js" defer></script>
+        <link rel="stylesheet" href="./style.css" />
+        <title>uploader</title>
+    </head>
+    <body>
+        <h2>Upload</h2>
+        <form method="POST" enctype="multipart/form-data" id="form">
+            <input type="file" name="files" id="files" multiple required />
+            <input type="password" id="pass" placeholder="Passcode">
+            <button type="button">Upload</button>
+        </form>
+        <hr>
+        <div>
+            <h2>./files/ Directory structure <span class="reload"></span></h2>
+            <div class="dir_structure"></div>
+        </div>
+    </body>
+</html>
