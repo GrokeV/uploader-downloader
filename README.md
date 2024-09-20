@@ -4,6 +4,9 @@ Host http server with ability to upload/download files.
 # Launching
 `npm run start`
 
+Don't forget to install node_modules
+`npm install`
+
 # Setting passcode for uploading
 open `.env` file and change `PASSCODE=0000` to whatever you want
 
